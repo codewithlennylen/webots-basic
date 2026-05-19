@@ -4,12 +4,13 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
 
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.2183523416518079 0.3888557694956703 0.895049409488159 1.1556569658649487
-  position -1.0575880362731973 -2.0184240442429786 1.1587075790545478
+  orientation -0.15910598868870812 0.2512354456970388 0.9547596740482911 1.2190844247615342
+  position -0.506954834801008 -1.2603331071695134 0.5080502356971742
 }
 TexturedBackground {
 }
@@ -22,6 +23,10 @@ RectangleArena {
 WoodenBox {
   translation 0.395508 0.310352 0.05
   size 0.1 0.1 0.1
+}
+E-puck {
+  translation -0.029184 -0.261829 0
+  rotation 0 0 1 1.309
 }
 WoodenBox {
   translation 0.35192 -0.378937 0.05
