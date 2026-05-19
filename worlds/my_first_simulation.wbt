@@ -7,6 +7,7 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
 
 WorldInfo {
+  basicTimeStep 16
 }
 Viewpoint {
   orientation -0.15910598868870812 0.2512354456970388 0.9547596740482911 1.2190844247615342
